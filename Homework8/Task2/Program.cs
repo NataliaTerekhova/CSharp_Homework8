@@ -5,9 +5,9 @@
 int[,] arr = Generate2DArray(4, 3);
 Print2DArray(arr);
 System.Console.WriteLine();
-GetMaxSum(arr);
+GetMinSum(arr);
 
-void GetMaxSum(int[,] array)
+void GetMinSum(int[,] array)
 {
     int sum = int.MaxValue;
     int index = 0;
