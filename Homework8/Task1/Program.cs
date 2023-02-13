@@ -2,7 +2,7 @@
 по убыванию элементы каждой строки двумерного массива.  */
 
 
-int[,] arr = Generate2DArray(5,5);
+int[,] arr = Generate2DArray(3,3);
 Print2DArray(arr);
 System.Console.WriteLine();
 SortRow(arr);
@@ -18,10 +18,11 @@ void SortRow(int[,] array)
          {
             row[j]=array[i,j];
          }
-        Array.Sort(row);
-        PrintArray(row);
-    
+
+           Array.Sort(row);
+           PrintArray(row);
     }
+    
 }
    
 
